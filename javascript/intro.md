@@ -38,25 +38,25 @@ Example String literals, String objects
 ### Accessing object properties
 Object properties can be accessed in two ways
 
-`obj.property  // return value`
+```obj.property  // return value
 
-`obj[property]  // also returns value`
+obj[property]  // also returns value```
 
 Use the second approach when you need to use a variable for the property as that will be eval'ed runtime.
 
 Example:
-`
-var myObj = { a: "1", b: "2", c: 24 };
+
+```var myObj = { a: "1", b: "2", c: 24 };
 myObj.a    // "1"
 
 var x = 'c';
 myObj['c']   //24
 myObj[x]     //24
-`
+```
 
 Object property names can be any string, including the empty string. If the property name would not be a valid JavaScript identifier or number, it must be enclosed in quotes.
 
-`
+```
 var unusualPropertyNames = {
   "": "An empty string",
   "!": "Bang!"
@@ -65,4 +65,4 @@ console.log(unusualPropertyNames."");   // SyntaxError: Unexpected string
 console.log(unusualPropertyNames[""]);  // An empty string
 console.log(unusualPropertyNames.!);    // SyntaxError: Unexpected token !
 console.log(unusualPropertyNames["!"]); // Bang!
-`
+```

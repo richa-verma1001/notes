@@ -10,24 +10,24 @@
 
 
 
-* Functions available *
-array.length
-array.push
-array.pop
-array.indexOf
-array.splice
-array.slice
-array.indexOf
-array.concat
-array.join
-array.find
+##### Functions available #####
+* array.length
+* array.push
+* array.pop
+* array.indexOf
+* array.splice
+* array.slice
+* array.indexOf
+* array.concat
+* array.join
+* array.find
 
-* Iterables *
-array.forEach
-array.map
-array.filter
-array.entries
+##### Iterables #####
+* array.forEach
+* array.map
+* array.filter
+* array.entries
 
-* Static *
-Array.from
-Array.isArray
+##### Static #####
+* Array.from
+* Array.isArray

@@ -1,0 +1,10 @@
+### Fat Array Functions
+
+** Example: 1 **
+//Traditional
+function(s) {
+return s.length;
+}
+
+ES6
+s => s.length;

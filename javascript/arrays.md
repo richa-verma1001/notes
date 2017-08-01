@@ -10,7 +10,7 @@
 
 
 
-** Functions available **
+* Functions available *
 array.length
 array.push
 array.pop

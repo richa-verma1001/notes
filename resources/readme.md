@@ -6,3 +6,6 @@ One of the many painpoints and challenges that I face as a software developer is
 * https://youtu.be/sBzRwzY7G-k - Very helpful video for an overview of the different technologies in web development, what is new and what is starting to fade (LearnCode.academy - Also has playlists on main technologies like React, Redux, CSS languages like SASS or Less, etc and using Bootstrap library)
 
 *
+
+#### Useful Tools 
+* [Postman](https://www.getpostman.com/)

@@ -1,5 +1,5 @@
 
-### Learn Array and prototype functions and comprehensions
+### Array and prototype functions and comprehensions
 
 #### Initialize Arrays
 * let array = [];

@@ -15,7 +15,8 @@
 + let - has a defined scope, provides more reusability
 + var - has global scope
 
-
+```
     a = a + 5; >> a += 5;
     b = b - 1; >> b -= 1;
     a = a * 5; >> a \*= 5;
+```

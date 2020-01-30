@@ -19,11 +19,10 @@
 
 ### Types of variables aka Variable declaration
 > const, let, var
-+ const - read only, blocked scoped
-+ let - blocked scope, optional initialization to a value
-+ var - has global scope  // e.g. \_numOfApples
-+    A variable that is not initialized has value undefined
-
++ const - read only, blocked scoped, not hoisted, must be initialized when declared
++ let - blocked scope, optional initialization to a value, not hoisted
++ var - has function scope, and is hoisted  // e.g. \_numOfApples
+    + A variable that is not initialized has value undefined
 
 ```
     a = a + 5; >> a += 5;
@@ -31,3 +30,24 @@
     a = a * 5; >> a \*= 5;
     b = b / 4; >> b /= 4;
 ```
+
+#### Hoisting
+Variables and Functions are hoisted in javascript which means that all function declarations are hoisted up and therefore function invocations can happen before we actually see the declaration in JS file. Hoisting obviously happens at runtime.
+
+#### Functions
+ES6 uses arrow function. They use the arrow syntax obviously. There are 2 reason for using them
+1. A more concise syntax
+2. **'this' keyword is redefined to be the scope in which the function is called. **
+
+````
+function sum(a,b) {
+  return a+b;
+}  
+
+Can be rewritten as
+
+let sum = (a,b) => a+b;
+
+Using arrow assumes you are defining function and can therefore skip the funciton key word. Anything after the arrow is assumed is the return value.
+
+````

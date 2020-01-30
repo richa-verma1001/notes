@@ -37,7 +37,7 @@ Variables and Functions are hoisted in javascript which means that all function 
 #### Functions
 ES6 uses arrow function. They use the arrow syntax obviously. There are 2 reason for using them
 1. A more concise syntax
-2. **'this' keyword is redefined to be the scope in which the function is called. **
+2. ** 'this' keyword is redefined to be the scope in which the function is called. **
 
 ````
 function sum(a,b) {

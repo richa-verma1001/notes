@@ -1,5 +1,6 @@
 
 ### Array and prototype functions and comprehensions
+Documentation source - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Indexed_collections
 
 #### Initialize Arrays
 * let array = [];
@@ -26,7 +27,8 @@
 
 
 ##### Iterables #####
-These Iterable functions can take a callback function to determine how elements are compared
+These Iterable functions can take a callback function to determine how elements are compared. They are iterables because they iterate over entire array in some fashion.
+
 * array.sort
 * array.forEach
 * array.map
@@ -54,4 +56,16 @@ colors.forEach(color => console.log(color));
 * Array.from
 * Array.isArray
 
+##### Spread Parameter #####
+let arr1 = [1,2, 3];
+let arr2 = [5, ...arr1, 6];
+or
+let arr2 = [...arr1];
+or
+let arr3 =  [...arr1, ...arr2];
+
 ##### Multi-dimensional Arrays #####
+
+##### Buffers and views: Types array architecture #####
+
+see MDN documentation to cover these topics

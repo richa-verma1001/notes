@@ -40,7 +40,8 @@ Object properties can be accessed in two ways
 
 ```obj.property  // return value
 
-obj[property]  // also returns value```
+obj[property]  // also returns value
+```
 
 Use the second approach when you need to use a variable for the property as that will be eval'ed runtime.
 

@@ -17,4 +17,5 @@ Check out this youtube channel - Finding it quite concise and helpful - https://
 Some getting started videos that I liked -
 
 * Recommended Atom plugins - 'browser-refresh-on-save', 'EMMET', etc. - https://www.youtube.com/watch?v=aiXNKHKWlmY
-*
+* Initial Setup file example - /Users/rverma/Sites/JSWork/index.html
+* Pickup a CSS library like Bootstrap or other - https://getbootstrap.com/ 

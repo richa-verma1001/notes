@@ -8,14 +8,17 @@ Check out project work at
 * /Users/rverma/richa/git/richa.verma1001/javascript=exercises
 * /Users/rverma/richa/git/richa.verma1001/js-assessment
 
-The above are a good review to go over javascript fundamentals. Its important to have these strong for easier, stronger and faster transitions to other frameworks.
+The above are a good review to go over javascript fundamentals. Its important
+to have these strong for easier, stronger and faster transitions to other frameworks.
 
 View live work at http://localhost/
 
-Check out this youtube channel - Finding it quite concise and helpful - https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA
+Check out this youtube channel - Finding it quite concise and helpful -
+https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA
 
 Some getting started videos that I liked -
 
-* Recommended Atom plugins - 'browser-refresh-on-save', 'EMMET', etc. - https://www.youtube.com/watch?v=aiXNKHKWlmY
+* Recommended Atom plugins - 'browser-refresh-on-save', 'EMMET', etc. -
+https://www.youtube.com/watch?v=aiXNKHKWlmY
 * Initial Setup file example - /Users/rverma/Sites/JSWork/index.html
-* Pickup a CSS library like Bootstrap or other - https://getbootstrap.com/ 
+* Pickup a CSS library like Bootstrap or other - https://getbootstrap.com/

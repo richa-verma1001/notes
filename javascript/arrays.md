@@ -1,6 +1,13 @@
 
 ### Array and prototype functions and comprehensions
 Documentation source - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Indexed_collections
+Array APIs - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+
+
+##### Static #####
+* Array.from
+* Array.isArray
+* Array.of
 
 #### Initialize Arrays
 * let array = [];
@@ -10,33 +17,51 @@ Documentation source - https://developer.mozilla.org/en-US/docs/Web/JavaScript/G
 * let anyArray = new Array(1,2 , [3,4,5], 6, 7);  //[1, 2, Array[3], 6, 7]
 * let wisenArray = Array.of(9.3) //wisenArray contains only one element 9.3
 
-
-
-##### Functions available #####
+##### Instance Properties #####
 * array.length
+
+##### Instance methods #####
+
+###### Mutator methods ######
+These methods modify array
+
+* array.copyWithin
+* array.fill
 * array.push
 * array.pop
-* array.indexOf
+* array.shift
+* array.unshift
+* array.sort
 * array.splice
-* array.slice
-* array.indexOf
-* array.concat
-* array.join
-* array.find
 * array.reverse
 
+###### accessor methods ######
+These methods do not modify array, they return a new arrays
+
+* array.concat
+* array.filter
+* array.indexOf
+* array.lastIndexOf
+* array.join
+* array.slice
+* array.toString
+* array.toLocaleString
 
 ##### Iterables #####
 These Iterable functions can take a callback function to determine how elements are compared. They are iterables because they iterate over entire array in some fashion.
 
-* array.sort
-* array.forEach
-* array.map
-* array.filter
+* array.entries
 * array.every
-* array.some
+* array.find
+* array.findIndex
+* array.forEach
+* array.keys
+* array.map
 * array.reduce
 * array.reduceRight
+* array.some
+* array.values
+
 
 Example 'sort'
 ````
@@ -52,9 +77,6 @@ colors.forEach(color => console.log(color));
 // Prints, a, b and c
 ````
 
-##### Static #####
-* Array.from
-* Array.isArray
 
 ##### Spread Parameter #####
 let arr1 = [1,2, 3];

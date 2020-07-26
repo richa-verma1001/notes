@@ -86,6 +86,12 @@ let arr2 = [...arr1];
 or
 let arr3 =  [...arr1, ...arr2];
 
+#### Copying Array 
+const itemsCopy = [...items];
+
+const foo = document.querySelectorAll('.foo');
+const nodes = [...foo];
+
 ##### Multi-dimensional Arrays #####
 
 ##### Buffers and views: Types array architecture #####

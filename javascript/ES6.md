@@ -54,3 +54,8 @@ Using arrow assumes you are defining function and can therefore skip the funcito
 
 #### IIFE 
 Immediately invoked function expression - Done for scoping i.e. to isolate all variables and functions so that there is no conflict. 
+````
+(function () {
+  console.log('Welcome to the Internet. Please follow me.');
+}());
+````

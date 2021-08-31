@@ -1,5 +1,9 @@
 # notes
 
+#### Prequisites ####
+Get your local webserver up and runing. If using MAC OS it comes with built-in apache server. Update the useraname.conf, httpd.conf and others to get the server pulling files from development directories. Depending on what OS you are running there are many cheatsheets that walk through the steps to do this. e.g. https://tech-cookbook.com/2020/11/14/setting-up-your-local-web-server-on-macos-big-sur-11-0-1-2020-mamp-macos-apache-mysql-php/
+
+
 #### Setting up ####
 
 Check out project work at

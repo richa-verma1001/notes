@@ -67,3 +67,5 @@ console.log(unusualPropertyNames[""]);  // An empty string
 console.log(unusualPropertyNames.!);    // SyntaxError: Unexpected token !
 console.log(unusualPropertyNames["!"]); // Bang!
 ```
+
+Overview of all JS topics https://www.youtube.com/watch?v=gSnbnYffz7k

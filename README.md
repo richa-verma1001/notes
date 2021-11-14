@@ -27,3 +27,4 @@ https://www.youtube.com/watch?v=aiXNKHKWlmY
 * I setup browser-refresh-on-save inside Atom editor. Its a package that can be downloaded. Its great, it does auto refresh in browser when browser file changes in editor. e.g. open http://localhost/JSWork/arrays/index.html in browser and corresponding in editor.
 * Initial Setup file example - /Users/rverma/Sites/JSWork/index.html
 * Pickup a CSS library like Bootstrap or other - https://getbootstrap.com/
+* Quick cheatsheet references for everything: https://devhints.io/

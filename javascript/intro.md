@@ -70,3 +70,4 @@ console.log(unusualPropertyNames["!"]); // Bang!
 
 Quick cheatsheet when revisiting https://websitesetup.org/javascript-cheat-sheet/
 Overview of all JS topics https://www.youtube.com/watch?v=gSnbnYffz7k
+Most helpful - https://javascript.info/

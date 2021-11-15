@@ -69,5 +69,10 @@ console.log(unusualPropertyNames["!"]); // Bang!
 ```
 
 Quick cheatsheet when revisiting https://websitesetup.org/javascript-cheat-sheet/
+
 Overview of all JS topics https://www.youtube.com/watch?v=gSnbnYffz7k
-Most helpful - https://javascript.info/
+
+Structured walkthru and good for revision - https://javascript.info/
+
+TIPS: 
+* Try to press Shift+Enter to input multiple lines in the debug inspector 

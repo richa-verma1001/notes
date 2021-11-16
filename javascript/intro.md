@@ -76,7 +76,9 @@ Structured walkthru and good for revision - https://javascript.info/
 #### Cheatsheets 
 * https://websitesetup.org/javascript-cheat-sheet/
 * https://quickref.me/javascript
-* 
+* https://devhints.io/js-array
+* https://devhints.io/es6
+* https://devhints.io/jsdoc
 
 ### TIPS: 
 * Try to press Shift+Enter to input multiple lines in the debug inspector 

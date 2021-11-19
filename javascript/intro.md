@@ -73,6 +73,7 @@ console.log(unusualPropertyNames["!"]); // Bang!
 Overview of all JS topics https://www.youtube.com/watch?v=gSnbnYffz7k
 Structured walkthru and good for revision - https://javascript.info/
 JS Objects - https://www.youtube.com/watch?v=wKBu_dEaF9E
+W3Schools - https://www.w3schools.com/jsref/default.asp
 
 #### Cheatsheets 
 * https://websitesetup.org/javascript-cheat-sheet/

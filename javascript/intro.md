@@ -21,7 +21,7 @@ JavaScript is case-sensitive and uses the Unicode character set
 It is important to try not to declare variables or functions in global scope. To avoid conflicts with other global functions, it is recommended that a function or set of functions are scoped inside your Closures. With ES6, `var` declaration has been improved with a new keyword `let` that lets developers declare variables for the block scope. This means a variable declared with 'let' inside a if block, will not be available outside the 'if' block where as before es6, the variables declaration 'var' only provided function(global) scope.
 
 ### Javascript Hoisting
-What is the purpose?
+Means your declarations are hoisted i.e. are available at the onset of JS execution. This applies to 'var' but does not apply to 'let' and 'const' types
 
 ### Data type conversion
 Javascript is a dynamic language and does not require `type` to be defined at the time of variable declaration. Example -
@@ -69,18 +69,21 @@ console.log(unusualPropertyNames["!"]); // Bang!
 ```
 
 
-### Resources 
+### Resources
 Overview of all JS topics https://www.youtube.com/watch?v=gSnbnYffz7k
 Structured walkthru and good for revision - https://javascript.info/
 JS Objects - https://www.youtube.com/watch?v=wKBu_dEaF9E
 W3Schools - https://www.w3schools.com/jsref/default.asp
+Complete Tutorial - https://javascript.info/
+Documentation Reference - https://developer.mozilla.org/en-US/docs/Web/JavaScript
 
-#### Cheatsheets 
+#### Cheatsheets
 * https://websitesetup.org/javascript-cheat-sheet/
 * https://quickref.me/javascript
 * https://devhints.io/js-array
 * https://devhints.io/es6
 * https://devhints.io/jsdoc
 
-### TIPS: 
-* Try to press Shift+Enter to input multiple lines in the debug inspector 
+### TIPS:
+* Try to press Shift+Enter to input multiple lines in the debug inspector
+* CMD+SHIFT+DEL - clear browser cache

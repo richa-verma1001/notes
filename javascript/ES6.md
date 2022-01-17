@@ -10,9 +10,9 @@
 
 + Bytes and bits - 1 byte is 8 bits (Yes, very basic revision)
 + ASCII - Has 128 characters with values 0 thru 127. Its a 8 BIT CHARACTER SET where all characters can be represented within 8 bits. http://www.asciitable.com/
-+ Unicode - This is 16 bit character set designed to cover all of the major living languages. All characters occupy the same space. http://www.robelle.com/smugbook/unicode.html
-+ UTF-8:  Uses 8 bit character ENCODING and can be as compact as ASCII as long as all the characters are plain English text.
-+ UTF-16:  
++ UTF-16: A 2 byte or 16 bit character set proposed by unicode to account of multiple language characters. The character set has short comings and evolved into more widely used UTF-8 character set.
++ UTF-8: A 4 bytle (32 bit) character set, can be expanded to upto 6 bytes if needed. Widely used today. The first bit marks how many bytes the character uses and therefore ASCII which can be denoted in a single bytle does not need to take 4 bytes unecessarily - https://www.youtube.com/watch?v=-oYfv794R9s and https://www.youtube.com/watch?v=vLBtrd9Ar28
+
 
 ### Datatypes
 > undefined, null, boolean, string, symbol, number, object

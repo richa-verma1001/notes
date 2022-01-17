@@ -18,3 +18,13 @@ for (const [key, value] of iterable) {
 // 2
 // 3
 ````
+
+### Strings
+
+````
+const a = 'John Smith';
+a.charAt(3); // n
+a[3]; // n
+
+````
+ES6 only. Strings can be accessed like array like objects in this case. 

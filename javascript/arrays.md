@@ -5,9 +5,13 @@ Array APIs - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/G
 
 
 ##### Static #####
-* Array.from
-* Array.isArray
-* Array.of
+* Array.from - Creates a new shallow copied array from an array like or iterable object
+```
+console.log(Array.from('foo'));
+// expected output: Array ["f", "o", "o"]
+```
+* Array.isArray - Return boolean
+* Array.of - Creates an array of provided value 
 
 #### Initialize Arrays
 * let array = [];

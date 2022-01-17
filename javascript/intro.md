@@ -67,3 +67,20 @@ console.log(unusualPropertyNames[""]);  // An empty string
 console.log(unusualPropertyNames.!);    // SyntaxError: Unexpected token !
 console.log(unusualPropertyNames["!"]); // Bang!
 ```
+
+
+### Resources 
+Overview of all JS topics https://www.youtube.com/watch?v=gSnbnYffz7k
+Structured walkthru and good for revision - https://javascript.info/
+JS Objects - https://www.youtube.com/watch?v=wKBu_dEaF9E
+W3Schools - https://www.w3schools.com/jsref/default.asp
+
+#### Cheatsheets 
+* https://websitesetup.org/javascript-cheat-sheet/
+* https://quickref.me/javascript
+* https://devhints.io/js-array
+* https://devhints.io/es6
+* https://devhints.io/jsdoc
+
+### TIPS: 
+* Try to press Shift+Enter to input multiple lines in the debug inspector 

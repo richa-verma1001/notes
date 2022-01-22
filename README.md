@@ -28,3 +28,4 @@ https://www.youtube.com/watch?v=aiXNKHKWlmY
 * Initial Setup file example - /Users/rverma/Sites/JSWork/index.html
 * Pickup a CSS library like Bootstrap or other - https://getbootstrap.com/
 * Quick cheatsheet references for everything: https://devhints.io/
+* Regex guide - https://www.youtube.com/watch?v=sa-TUpSx1JA  [JSWork Project]

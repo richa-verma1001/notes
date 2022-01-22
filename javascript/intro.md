@@ -32,16 +32,43 @@ Javascript is a dynamic language and does not require `type` to be defined at th
 ### Integers
 Integers can be expressed in decimal (base 10), hexadecimal (base 16), octal (base 8) and binary (base 2).
 
+### Numbers
+Represented as primitives or objects.
+
+```
+typeof 3; // number
+typeof new Number(3); // object
+```
+Number type in JS includes both integers and floating point values
+```
+12
+23.45
+5e3 i.e 5x10^3
+234e-5  i.e. 0.00234
+```
+
+https://www.youtube.com/watch?v=Xzi4-26vdOM
+```
+let num = '5';
+Number.parseInt(11,2); // 3; assumed base2, From binary to decimal conversion
+Number.parseInt(11,16); // 17; assumed base 16, from hex conversion to decimal
+Number(11).toString(2); //1101 ; convert to binary
+
+```
+
+
 ### Literals vs. Objects
 Example String literals, String objects
 
 ### Accessing object properties
 Object properties can be accessed in two ways
 
-```obj.property  // return value
+```obj.property  // return value  ; as-is, not computed like square brackets
 
-obj[property]  // also returns value
+obj[property]  // also returns value ; [] provide for computed property
 ```
+
+Cloning objects via: Object.assign(dest, [src1, src2, ...,srcN]);
 
 Use the second approach when you need to use a variable for the property as that will be eval'ed runtime.
 
@@ -53,6 +80,10 @@ myObj.a    // "1"
 var x = 'c';
 myObj['c']   //24
 myObj[x]     //24
+```
+
+```
+delete myObj.a;  // delete a property
 ```
 
 Object property names can be any string, including the empty string. If the property name would not be a valid JavaScript identifier or number, it must be enclosed in quotes.
@@ -87,3 +118,4 @@ Documentation Reference - https://developer.mozilla.org/en-US/docs/Web/JavaScrip
 ### TIPS:
 * Try to press Shift+Enter to input multiple lines in the debug inspector
 * CMD+SHIFT+DEL - clear browser cache
+* JS Equality comparison: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness#same-value-zero_equality

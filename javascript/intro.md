@@ -55,58 +55,19 @@ Number.parseInt(11,16); // 17; assumed base 16, from hex conversion to decimal
 Number(11).toString(2); //1101 ; convert to binary
 
 ```
-
-
-### Literals vs. Objects
-Example String literals, String objects
-
-### Accessing object properties
-Object properties can be accessed in two ways
-
-```obj.property  // return value  ; as-is, not computed like square brackets
-
-obj[property]  // also returns value ; [] provide for computed property
-```
-
-Cloning objects via: Object.assign(dest, [src1, src2, ...,srcN]);
-
-Use the second approach when you need to use a variable for the property as that will be eval'ed runtime.
-
-Example:
-
-```var myObj = { a: "1", b: "2", c: 24 };
-myObj.a    // "1"
-
-var x = 'c';
-myObj['c']   //24
-myObj[x]     //24
-```
-
-```
-delete myObj.a;  // delete a property
-```
-
-Object property names can be any string, including the empty string. If the property name would not be a valid JavaScript identifier or number, it must be enclosed in quotes.
-
-```
-var unusualPropertyNames = {
-  "": "An empty string",
-  "!": "Bang!"
-}
-console.log(unusualPropertyNames."");   // SyntaxError: Unexpected string
-console.log(unusualPropertyNames[""]);  // An empty string
-console.log(unusualPropertyNames.!);    // SyntaxError: Unexpected token !
-console.log(unusualPropertyNames["!"]); // Bang!
-```
-
+### Objects
+See objects.md
 
 ### Resources
 Overview of all JS topics https://www.youtube.com/watch?v=gSnbnYffz7k
-Structured walkthru and good for revision - https://javascript.info/
+Structured walkthru; good revision; complete tutorial - https://javascript.info/
+Basic Skill check Exercises - https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/
 JS Objects - https://www.youtube.com/watch?v=wKBu_dEaF9E
-W3Schools - https://www.w3schools.com/jsref/default.asp
-Complete Tutorial - https://javascript.info/
+W3Schools - https://www.w3schools.com/jsref/default.asp=
 Documentation Reference - https://developer.mozilla.org/en-US/docs/Web/JavaScript
+
+More skill check exercises - HackerRank, Leetcode
+Tools - JSBin
 
 #### Cheatsheets
 * https://websitesetup.org/javascript-cheat-sheet/

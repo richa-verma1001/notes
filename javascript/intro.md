@@ -1,3 +1,4 @@
+(Last reviewed March 28, 2023)
 ## Basics
 JavaScript borrows most of its syntax from Java, but is also influenced by Awk, Perl and Python.
 

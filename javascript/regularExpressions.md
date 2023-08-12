@@ -10,7 +10,6 @@ function convertHTML(str) {
 }
 
 function replacer(match) {
-  console.log(match);
   const entityLookup = {
     '&' : '&amp;',
     '<' : '&lt;',
@@ -18,7 +17,6 @@ function replacer(match) {
     '"': '&quot;',
     "'": '&apos;'
   }
-
   return entityLookup[match];  
 }
 

@@ -1,4 +1,6 @@
 # Getting Started
+## Roapmap
+Pick a roadmap - https://roadmap.sh/
 
 ## Where is What
 > Most important - Keep your documentation updated at https://github.com/richa-verma1001/notes

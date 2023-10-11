@@ -32,7 +32,7 @@
 ```
 
 #### Hoisting
-Variables and Functions are hoisted in javascript which means that all function declarations are hoisted up and therefore function invocations can happen before we actually see the declaration in JS file. Hoisting obviously happens at runtime. In ES6 `let` isn't hoisted. 
+Variables and Functions are hoisted in javascript which means that all function declarations are hoisted up and therefore function invocations can happen before we actually see the declaration in JS file. Hoisting obviously happens at runtime. In ES6 `let` isn't hoisted.
 
 #### Functions
 ES6 uses arrow function. They use the arrow syntax obviously. There are 2 reason for using them
@@ -52,8 +52,13 @@ Using arrow assumes you are defining function and can therefore skip the funcito
 
 ````
 
-#### IIFE 
-Immediately invoked function expression - Done for scoping i.e. to isolate all variables and functions so that there is no conflict. 
+##### Default Parameters
+```
+const sum = (a, b=1) => a + b; // when not provided, b has a default value of 1
+```
+
+#### IIFE
+Immediately invoked function expression - Done for scoping i.e. to isolate all variables and functions so that there is no conflict.
 ````
 (function () {
   console.log('Welcome to the Internet. Please follow me.');

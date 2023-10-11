@@ -58,6 +58,23 @@ Number(11).toString(2); //1101 ; convert to binary
 ### Objects
 See objects.md
 
+### Regular Expressions
+
+Regular expressions are greedy by default which means that they return the longest possible part of the string that fits the patterns and return it as a match. The alternative to this is called a lazy match, which finds the smallest possible part of the string that satisfies the regex pattern.
+e.g.
+
+```
+const myString = "titanic";
+myString.match(/t[a-z]*i/);   // return titani
+myString.match(/t[a-z]*?i/);   // returns 'ti'; lazy matching with ?
+```
+1 example - https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/regular-expressions/find-characters-with-lazy-matching
+
+More indepth details at https://javascript.info/regexp-introduction n (Must read)
+
+### JS expressions and Operators
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators
+
 ### Resources
 Overview of all JS topics https://www.youtube.com/watch?v=gSnbnYffz7k
 Structured walkthru; good revision; complete tutorial - https://javascript.info/
